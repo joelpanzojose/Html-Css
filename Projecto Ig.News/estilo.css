@@ -1,0 +1,122 @@
+@charset "UTF-8";
+*{
+    margin: 0%;  
+}
+body{
+    background-color: rgb(9, 12, 8);
+}
+@font-face {
+    font-family:midia;
+    src: url(fonts/Social\ Media\ Circled.otf);
+}
+:root{
+    --font_redes: 'midia','arial';
+    --cor_destac: rgb(0, 217, 255) ;
+    --cor1:  rgb(247, 247, 9);
+}
+header{
+    background-color: rgb(9, 12, 8);
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.295); 
+    padding-bottom: 15px;
+}
+header h1{
+    margin-left: 100px;
+    font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -6px;
+   font-weight: bolder;
+}
+ div{
+    display: inline-block;
+ }
+nav{
+    margin-top: -22px;
+    margin-left: 1000px;
+    background-color: rgba(28, 37, 28, 0.993);
+    border-radius: 20px;
+    width: 150px;
+    padding: 8px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.75em;
+}
+.git{
+    font-family: var(--font_redes);
+    color: var(--cor1);
+    padding-right: 5px;
+    font-size: 1.50em;
+    font-weight: bold;
+}
+ div a{
+    padding-left: 45px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.95em;
+}
+ main div{
+    display: inline block;
+}
+
+main{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+main p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main h1{
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.encostar{
+    margin-top: -15px;
+}
+strong{
+    color: var(--cor_destac);
+}
+.palmas{
+    font-size: 1.50em;
+}
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 30px;
+    background-color: var(--cor1); 
+}
+.sentado{
+    margin-left: 200px;
+   
+}
+
+.X{
+    color: gray;
+}
+.mainp2{
+   margin: auto;
+   width:780px;
+  padding-top: 40px;
+}
+section{
+    padding: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.295)
+    ;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+section p{
+    font-size: 0.90em;
+    color: rgba(255, 255, 255, 0.678);
+}
